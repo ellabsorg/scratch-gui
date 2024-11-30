@@ -46,8 +46,21 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import ExtensionInsetIconURL from './ellabsextension/extension-icon.png';
+import ExtensionIconURL from './ellabsextension/extension-background.png';
+
 export default [
     {
+        name: 'ELLabs Extension',
+        extensionId: 'ellabsextension',
+        iconURL: ExtensionIconURL,
+        insetIconURL: ExtensionInsetIconURL,
+        description: 'ELLabs Scratch extension',
+        featured: true,
+        disabled: false
+    },
+    {
+        
         name: (
             <FormattedMessage
                 defaultMessage="Music"
